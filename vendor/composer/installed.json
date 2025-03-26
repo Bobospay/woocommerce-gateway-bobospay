@@ -1,0 +1,61 @@
+{
+    "packages": [
+        {
+            "name": "bobospay/bobospay-php",
+            "version": "v1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bobospay/bobospay-php.git",
+                "reference": "bf8f95c665e439aeb8ff2d93a639693a17d06fa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bobospay/bobospay-php/zipball/bf8f95c665e439aeb8ff2d93a639693a17d06fa1",
+                "reference": "bf8f95c665e439aeb8ff2d93a639693a17d06fa1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "time": "2023-04-26T23:34:58+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Bobospay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corneille",
+                    "email": "bankolecorneille@gmail.com"
+                }
+            ],
+            "description": "Php sdk of Bobospay - Online payment solution by credit card and mobile money",
+            "homepage": "https://bobospay.com/",
+            "keywords": [
+                "api",
+                "bobospay",
+                "payment processing"
+            ],
+            "support": {
+                "issues": "https://github.com/Bobospay/bobospay-php/issues",
+                "source": "https://github.com/Bobospay/bobospay-php/tree/v1.1.0"
+            },
+            "install-path": "../bobospay/bobospay-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

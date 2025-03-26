@@ -1,0 +1,225 @@
+# Copyright (C) 2024 Bobospay
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bobospay Gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-gateway-bobospay\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-29T12:59:54+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: woocommerce-gateway-bobospay\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-gateway-bobospay.php
+msgid "WooCommerce Bobospay Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-gateway-bobospay.php
+msgid "https://wordpress.org/plugins/woocommerce-gateway-bobospay/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-gateway-bobospay.php
+msgid "Take credit card and mobile money payments on your store using Bobospay."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-gateway-bobospay.php
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:79
+msgid "Bobospay"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-gateway-bobospay.php
+msgid "https://bobospay.com/"
+msgstr ""
+
+#: admin/class-woocommerce-gateway-bobospay-admin.php:168
+msgid "Bobospay Gateway for WooCommerce requires WooCommerce to be activated"
+msgstr ""
+
+#: admin/class-woocommerce-gateway-bobospay-admin.php:172
+msgid "Bobospay Gateway for WooCommerce requires WooCommerce version 2.5 or greater"
+msgstr ""
+
+#: admin/class-woocommerce-gateway-bobospay-admin.php:176
+msgid "Bobospay Gateway for WooCommerce requires cURL to be installed on your server"
+msgstr ""
+
+#: admin/class-woocommerce-gateway-bobospay-admin.php:211
+msgid "Settings"
+msgstr ""
+
+#: admin/class-woocommerce-gateway-bobospay-admin.php:214
+msgid "Docs"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:80
+msgid "Continue to payment"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:81
+msgid "Bobospay Payment Gateway Plug-in for WooCommerce"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:146
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:148
+msgid "Enable Bobospay"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:152
+msgid "Title"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:154
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:155
+msgid "Mobile Money - Credit cards (Bobospay)"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:159
+msgid "Description"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:162
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:163
+msgid "Pay via Bobospay; you can pay with your credit card or Mobile Money"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:166
+msgid "Logo Image (190×60)"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:168
+msgid "If you want Bobospay to co-brand the checkout page with your logo, enter the URL of your logo image here.<br/>The image must be no larger than 190x60, GIF, PNG, or JPG format, and should be served over HTTPS."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:171
+msgid "Optional"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:174
+msgid "Bobospay sandbox"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:176
+msgid "Enable Bobospay sandbox"
+msgstr ""
+
+#. translators: %s is the URL to the Bobospay developer account signup page
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:179
+msgid "Bobospay sandbox can be used to test payments. Sign up for a <a target=\"_blank\" href=\"%s\">developer account</a>."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:182
+msgid "Test Client Id"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:184
+msgid "This is the Test client id found in API Keys in Account Dashboard."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:187
+msgid "Bobospay Test Client Id"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:190
+msgid "Live Client Id"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:192
+msgid "This is the Live Client id found in API Keys in Account Dashboard."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:195
+msgid "Bobospay Live Client Id"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:198
+msgid "Test Client Secret"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:200
+msgid "This is the Test Client Secret found in API Keys in Account Dashboard."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:203
+msgid "Bobospay Test Client Secret"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:206
+msgid "Live Client Secret"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:208
+msgid "This is the Live Client Secret found in API Keys in Account Dashboard."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:211
+msgid "Bobospay Live Client Secret"
+msgstr ""
+
+#. translators: %s is the payment method title, %s is the URL to the WooCommerce settings page
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:227
+msgid "<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL certificate on your checkout page. Please ensure that you have a valid SSL certificate and that you are <a href=\"%s\">forcing the checkout pages to be secured.</a>"
+msgstr ""
+
+#. translators: %s is the payment method title, %s is the URL to the WooCommerce general settings page
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:241
+msgid "<strong>%s</strong> does not support the currency you are currently using. Please set your shop's currency to one of the supported currencies: XOF (FCFA), USD, EUR, or NGN. You can do this <a href=\"%s\">here.</a>"
+msgstr ""
+
+#. translators: %s is the payment method title
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:408
+msgid "%s currently supports only XOF, USD, EUR, and NGN as currencies. Please select one of these or contact the store manager."
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:444
+msgid "Payment error: "
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:465
+msgid "Transaction is pending"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:466
+msgid "Hey, the order is processing. Thanks!"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:470
+msgid "Transaction completed successfully"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:471
+msgid "Hey, the order has been completed. Thanks!"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:475
+msgid "Hey, the order has been cancelled. Try again!"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:476
+msgid "Transaction has been cancelled: Try again!"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:479
+msgid "Hey, the order payment failed. Try again!"
+msgstr ""
+
+#: includes/class-woocommerce-gateway-bobospay-checkout.php:480
+msgid "Transaction failed: Try again!"
+msgstr ""
